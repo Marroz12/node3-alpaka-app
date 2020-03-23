@@ -3,9 +3,9 @@ const com = (temp, rain) => {
     if (temp>5) {
         return 'W sam raz na spacerek!'
     } else if (rain>0.7){
-        return 'Musimy sobie odpuścić spacerek.'
+        return 'Będzie padać. Musimy sobie odpuścić spacerek.'
     } else {
-        return 'Musimy sobie odpuścić spacerek.'
+        return 'Uuu... za zimno, musimy sobie odpuścić spacerek.'
     }
 }
 
