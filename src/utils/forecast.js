@@ -1,9 +1,10 @@
 const request = require('request')
 const com = (temp, rain) => {
-    if (temp>5) {
-        return 'W sam raz na spacerek!'
-    } else if (rain>0.7){
+    
+    if (rain>0.7) {
         return 'Będzie padać. Musimy sobie odpuścić spacerek.'
+    } else if (temp>5){
+        return 'W sam raz na spacerek!'
     } else {
         return 'Uuu... za zimno, musimy sobie odpuścić spacerek.'
     }
